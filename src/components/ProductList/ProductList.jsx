@@ -31,7 +31,7 @@ const ProductList = () => {
             totalPrice: getTotalPrice(addedItems),
             queryId,
         }
-        fetch('http://85.119.146.179:800/web-data', {
+        fetch('https://preeminent-manatee-35427f.netlify.app/web-data', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
